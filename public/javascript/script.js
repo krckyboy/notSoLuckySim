@@ -12,6 +12,6 @@ $(document).ready(function() {
 
 // returns a random Number from 1 to 59
 function createLotteryRngNumber() {
-    var rngNum = Math.round(Math.random() * 59);
+    var rngNum = Math.round(Math.random() * 59) + 1;
     return rngNum; //TODO: Test this if it's truly a number between 1 and 59
 };
