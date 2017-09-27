@@ -1,0 +1,67 @@
+/*************************
+~~~~ GENERAL ~~~~
+*************************/
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*************************
+~~~~ HEADER ~~~~
+*************************/
+
+header {
+	/*background-color: #212121;*/
+	background-color: tomato;
+	width: 100%;
+	color: white;
+}
+
+header .container {
+	width: 100%;
+	background-color: tomato;
+	margin: 0 auto;
+	padding-top: 21px;
+	padding-bottom: 21px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-leaf {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header h2 {
+	font-family: 'Righteous', cursive;
+	font-size: 1rem;
+	letter-spacing: .35rem;
+}
+
+header span {
+	text-align: center;
+}
+
+.logo-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.intro-left {
+
+}
+
+header span {
+	color: black;
+}
+
+header img {
+	width: 30%;
+}
